@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Metropolis-Medium';
+      src:  url('/police/Metropolis-Medium.ttf.woff') format('woff'),
+      url('/police/Metropolis-Medium.ttf.svg#Metropolis-Medium') format('svg'),
+      url('/police/Metropolis-Medium.ttf.eot'),
+      url('/police/Metropolis-Medium.eot?#iefix') format('embedded-opentype'); 
+      font-weight: normal;
+      font-style: normal;
+}
+
+* {
+    font-family: 'Metropolis-Medium' ;
+}
+.logo {
+    width:100%;
+    margin:0px;
+    padding:0px;
+
+}
+
+header {
+    margin:0;
+    padding:0;
+    background-color: #EDF0E1 ;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+main {
+    background-image: url(./images/background.png);
+    background-position: center;
+    padding:10px;
+    margin:0;
+}
+
+p {
+    text-align: justify ;
+}
+
+footer {
+    background-image: url(/images/background.png);
+   
+    background-position: center;
+}
