@@ -1,5 +1,5 @@
 import { DataTypes, Model } from 'sequelize';
-import getConnexion from './index';
+import getConnexion from './index.js';
 
 export default class Activity extends Model { }
 
@@ -49,9 +49,13 @@ Activity.init({
         type: DataTypes.STRING,
         allowNull: false,
     },
+
 },
     {
         sequelize: getConnexion,
-        modelName: 'activities'
+        modelName: 'activities',
+        createdAt: false,
+        updatedAt: false
     });
+
 

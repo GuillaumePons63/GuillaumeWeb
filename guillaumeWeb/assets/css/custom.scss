@@ -9,4 +9,18 @@ $theme-colors: (
     'dark': #001738,
 );
 
+@font-face {
+    font-family: 'Metropolis-Medium';
+    src: url('../polices/Metropolis-Medium.ttf.woff') format('woff'),
+        url('../polices/Metropolis-Medium.ttf.svg#Metropolis-Medium') format('svg'),
+        url('../polices/Metropolis-Medium.ttf.eot'),
+        url('../polices/Metropolis-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-family-sans-serif: 'Metropolis-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+$font-family-monospace: 'Metropholis-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+
+
 @import '~/node_modules/bootstrap/scss/bootstrap.scss';
