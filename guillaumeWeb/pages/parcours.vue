@@ -3,7 +3,7 @@
         <Nav />
     </header>
     <main class="container bg-secondary">
-        <h1> Mon Parcours </h1>
+        <h1 class="mt-5"> Mon Parcours </h1>
         <p>J’ai commencé l’informatique quand j’avais 15 ans, grâce à mes grand parents, qui m’ont offert mon premier PC
             à
             Noël. Déjà passionné de jeux vidéos, j’ignorais à cet instant que le temps que j’allais perdre à m’amuser à
@@ -79,7 +79,7 @@
             contacter. En informatique je ne sais pas encore tout faire (je suis par exemple un très mauvais graphiste),
             mais je peux vous orienter vers des personnes compétentes.
         </p>
-        <p>
+        <p class="mb-0 pb-5">
             A très vite.
         </p>
     </main>

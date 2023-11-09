@@ -19,8 +19,8 @@ module.exports = {
         image: null,
         link: null,
         mainContent: 'Contenu principal de l\'activité 1',
-        startDate: new Date(),
-        endDate: null,
+        date: JSON.stringify([new Date(), new Date()]),
+        enCours: false,
         technology: '[React,NodeJs]',
 
 
@@ -31,8 +31,8 @@ module.exports = {
         image: null,
         link: null,
         mainContent: 'Contenu principal de l\'activité 2',
-        startDate: new Date(),
-        endDate: null,
+        date: JSON.stringify([new Date(), new Date(), new Date()]),
+        enCours: true,
         technology: '[React,NodeJs]',
       },
       {
@@ -41,8 +41,8 @@ module.exports = {
         image: null,
         link: null,
         mainContent: 'Contenu principal de l\'activité 3',
-        startDate: new Date(),
-        endDate: null,
+        date: JSON.stringify([new Date(), new Date(), new Date(), new Date()]),
+        enCours: false,
         technology: '[React,NodeJs]',
       }
       // ... Ajoutez autant d'entrées que vous le souhaitez

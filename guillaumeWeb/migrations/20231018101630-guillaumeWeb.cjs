@@ -21,8 +21,8 @@ module.exports = {
       image: Sequelize.STRING,
       link: Sequelize.STRING,
       mainContent: Sequelize.TEXT,
-      startDate: Sequelize.DATE,
-      endDate: Sequelize.DATE,
+      date: Sequelize.JSON,
+      enCours: Sequelize.BOOLEAN,
       technology: Sequelize.STRING
     });
   },

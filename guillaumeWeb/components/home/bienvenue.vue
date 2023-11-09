@@ -18,8 +18,6 @@
                     <div class="carousel-item">
                         <img src="~/assets/images/rasta.jpeg" class="d-block w-100" alt="...">
                     </div>
-
-
                 </div>
             </div>
         </div>

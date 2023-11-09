@@ -37,13 +37,13 @@ Activity.init({
         type: DataTypes.TEXT,
         allowNull: false,
     },
-    startDate: {
-        type: DataTypes.DATE,
+    date: {
+        type: DataTypes.ARRAY(DataTypes.DATE),
         allowNull: false,
     },
-    endDate: {
-        type: DataTypes.DATE,
-        allowNull: true,
+    enCours: {
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
     },
     technology: {
         type: DataTypes.STRING,
