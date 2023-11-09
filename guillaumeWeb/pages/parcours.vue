@@ -3,7 +3,7 @@
         <Nav />
     </header>
     <main class="container bg-secondary">
-        <h1 class="mt-5"> Mon Parcours </h1>
+        <h1 class="mt-5 animate__animated animate__bounce"> Mon Parcours </h1>
         <p>J’ai commencé l’informatique quand j’avais 15 ans, grâce à mes grand parents, qui m’ont offert mon premier PC
             à
             Noël. Déjà passionné de jeux vidéos, j’ignorais à cet instant que le temps que j’allais perdre à m’amuser à
