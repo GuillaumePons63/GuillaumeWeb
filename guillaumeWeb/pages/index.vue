@@ -8,6 +8,7 @@
         <HomeParcours />
         <HomeServices />
         <HomeProjets />
+        <Contact />
     </div>
 </template>
 

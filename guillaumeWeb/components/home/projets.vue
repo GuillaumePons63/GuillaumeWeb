@@ -1,7 +1,7 @@
 <template>
-    <h2 class="text-center">Mes projets</h2>
+    <h2 class="text-center zoom">Mes projets</h2>
     <div class="d-flex flex-column flex-md-row justify-content-md-evenly">
-        <div v-for="projet in projets" class="col-12 col-md-3 card d-block my-3 flex-column justify-content-between">
+        <div v-for="projet in projets" class="col-12 col-md-3 card d-block my-3 flex-column justify-content-between zoom">
             <div class="card-header">
                 <h3 class="card-title text-center">{{ projet.title }}</h3>
             </div>
