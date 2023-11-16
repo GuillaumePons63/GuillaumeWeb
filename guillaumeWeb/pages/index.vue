@@ -1,11 +1,14 @@
 <template>
-    <header class="bg-secondary">
+    <header class="bg-secondary animate__animated animate__zoomInDown">
         <Nav />
         <HomeBienvenue />
     </header>
     <hr class="solid">
-    <HomeServices />
-    <HomeProjets />
+    <div class="animate__animated animate__zoomIn animate__delay-1s">
+        <HomeParcours />
+        <HomeServices />
+        <HomeProjets />
+    </div>
 </template>
 
 <script setup>
