@@ -45,6 +45,7 @@ module.exports = {
         enCours: false,
         technology: '[React,NodeJs]',
       }
+
       // ... Ajoutez autant d'entrées que vous le souhaitez
     ]);
   },
