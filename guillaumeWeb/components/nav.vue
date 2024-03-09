@@ -19,7 +19,7 @@
                         <a class="nav-link text-light" href="#">Mes services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Mes Projets</a>
+                        <NuxtLink class="nav-link text-light" to="/allProjets">Mes Projets</NuxtLink>
                     </li>
                     <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
