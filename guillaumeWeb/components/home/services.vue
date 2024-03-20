@@ -12,7 +12,7 @@
         <p class="m-3"> {{ service.description }} </p>
       </div>
       <div class="mb-0 card-footer">
-        <button type="button" class="btn btn-lg btn-outline-primary m-auto d-block">En savoir + </button>
+        <nuxt-link :to="`/service/${service.navSlug}`" type="button" class="btn btn-lg btn-outline-primary m-auto d-block">En savoir + </nuxt-link>
       </div>
     </div>
   </div>
