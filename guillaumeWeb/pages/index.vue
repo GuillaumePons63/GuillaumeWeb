@@ -5,9 +5,9 @@
     </header>
     <hr class="solid">
     <div class="animate__animated animate__zoomIn animate__delay-1s">
-        <HomeParcours />
+        <!-- <HomeParcours /> -->
         <HomeServices />
-        <HomeProjets />
+        <!-- <HomeProjets /> -->
         <Contact />
     </div>
 </template>

@@ -19,7 +19,7 @@
                 <textarea class="form-control" id="message" v-model="message" required></textarea>
             </div>
             <div class="col-12">
-                <button type="submit" class="btn btn-primary m-auto d-block">Envoyer</button>
+                <button type="submit" class="btn btn-primary m-auto d-block" @click="mailInput()">Envoyer</button>
             </div>
         </form>
     </div>
@@ -28,33 +28,25 @@
 
 
 <script setup>
-import { ref } from 'vue';
+const mail = useMail();
 
 const name = ref('');
 const email = ref('');
 const subject = ref('');
 const message = ref('');
 
-async function submitForm() {
-    const data = {
-        name: name.value,
-        email: email.value,
-        subject: subject.value,
-        message: message.value
-    };
+const mailInput = () => {
+    mail.send({
+        from: name.value,
+        subject: `${subject.value} - ${email.value}`,
+        text: message.value,
+    }).then(() => {
+        alert('Message envoyé avec succès')
+    }).catch((error) => {
+        alert(error.message)
+    })
 
-    const response = await fetch('/send-email', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(data)
-    });
-
-    if (response.ok) {
-        alert('Votre message a été envoyé avec succès !');
-    } else {
-        alert('Une erreur est survenue lors de l\'envoi de votre message. Veuillez réessayer plus tard.');
-    }
 }
+
+
 </script>

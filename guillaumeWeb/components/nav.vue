@@ -18,8 +18,13 @@
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#">Mes services</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <NuxtLink class="nav-link text-light" to="/allProjets">Mes Projets</NuxtLink>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="https://www.malt.fr/profile/guillaumepons1"
+                            target="_blank"> Mon profil sur
+                            Malt </a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
@@ -38,3 +43,14 @@
         </div>
     </nav>
 </template>
+
+<style>
+.nav-link {
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+
+}
+</style>
