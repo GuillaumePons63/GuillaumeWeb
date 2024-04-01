@@ -9,10 +9,13 @@
         <h4 class="my-0 fw-normal text-center mt-4"> {{ service.titre }}</h4>
       </div>
       <div class="card-body">
+        <!-- <div v-html="service.image" class="img-thumbnail"> -->
+        <!-- </div> -->
         <p class="m-3"> {{ service.description }} </p>
       </div>
       <div class="mb-0 card-footer">
-        <nuxt-link :to="`/service/${service.navSlug}`" type="button" class="btn btn-lg btn-outline-primary m-auto d-block">En savoir + </nuxt-link>
+        <nuxt-link :to="`/service/${service.navSlug}`" type="button"
+          class="btn btn-lg btn-outline-primary m-auto d-block">En savoir + </nuxt-link>
       </div>
     </div>
   </div>
