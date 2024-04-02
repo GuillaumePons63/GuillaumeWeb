@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-3 animate__animated animate__zoomIn animate__delay-500ms">
             <div id="carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">

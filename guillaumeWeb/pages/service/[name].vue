@@ -1,12 +1,10 @@
 <template>
-    <header class="bg-secondary animate__animated animate__zoomInDown">
-        <Nav />
-    </header>
-  
+
+
     <main v-if="service" class="container bg-secondary">
-        <h1 class="mt-5 animate__animated animate__bounce"> {{service.titre}} </h1>
+        <h1 class="mt-5 animate__animated animate__bounce"> {{ service.titre }} </h1>
         <div v-html="service.mainContent"></div>
-    </main> 
+    </main>
 
 </template>
 
