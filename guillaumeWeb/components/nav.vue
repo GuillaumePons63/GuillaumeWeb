@@ -41,7 +41,7 @@
                         </li> -->
                     </ul>
                     <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-                        <button class="btn btn-success"> Me contacter </button>
+                        <NuxtLink class="btn btn-success" to="/contact"> Me contacter </NuxtLink>
                     </div>
                 </div>
             </div>

@@ -28,6 +28,7 @@
 
 
 <script setup>
+import swal from 'sweetalert2';
 const mail = useMail();
 
 const name = ref('');
@@ -37,13 +38,28 @@ const message = ref('');
 
 const mailInput = () => {
     mail.send({
-        from: name.value,
-        subject: `${subject.value} - ${email.value}`,
+        to: name.value,
+        from: email.value,
+        subject: `${subject.value}`,
         text: message.value,
     }).then(() => {
-        alert('Message envoyé avec succès')
+        swal.fire({
+            title: 'Message envoyé',
+            text: 'Votre message a bien été envoyé',
+            icon: 'success',
+            confirmButtonText: 'OK'
+        }).then(() => {
+            navigateTo('/')
+        })
     }).catch((error) => {
-        alert(error.message)
+        swal.fire({
+            title: 'Erreur',
+            text: 'Une erreur est survenue lors de l\'envoi du message',
+            icon: 'error',
+            confirmButtonText: 'OK'
+        }).then(() => {
+            navigateTo('/')
+        })
     })
 
 }

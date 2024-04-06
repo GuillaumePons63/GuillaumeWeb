@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-9 mt-3 m-auto">
+        <div class="col-12 col-md-9 mt-5 m-auto">
             <h1 class="text-center"> J'aide les gens avec l'informatique </h1>
             <p class="m-4"> J’ai commencé l’informatique quand j’avais 15 ans, grâce à mes grand parents, qui m’ont
                 offert
