@@ -1,6 +1,6 @@
 <template>
     <header class="bg-secondary ">
-        <nav class="navbar navbar-expand-lg bg-body-primary bg-info rounded animate__animated animate__backInDown "
+        <nav class="navbar navbar-expand-lg bg-body-primary bg-info rounded animate__animated animate__backInDown"
             aria-label="Thirteenth navbar example">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

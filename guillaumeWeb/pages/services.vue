@@ -1,7 +1,7 @@
 <template>
     <main class="container bg-secondary ">
-        <h1 class="animate__animated animate__flipInX">Mes services</h1>
-        <section class="animate__animated animate__zoomIn animate__delay-500ms">
+        <h1 class="animate__animated animate__flipInX text-center">Mes services</h1>
+        <section class="animate__animated animate__zoomIn animate__delay-500ms mx-md-5">
             <p>Mon aventure dans le monde numérique a débuté bien avant que Guillaume Web ne soit une réalité.
                 Comme beaucoup d'entre vous, j'ai été fasciné par les possibilités infinies que l'informatique pouvait
                 offrir dès mon plus jeune âge. Cette passion, née dans les moments partagés avec mon premier PC, offert

@@ -1,7 +1,7 @@
 <template>
-    <main class="container bg-secondary">
-        <h1 class="animate__animated animate__bounce"> Mon Parcours </h1>
-        <section class="animate__animated animate__zoomIn">
+    <main class="container bg-secondary pt-3">
+        <h1 class="animate__animated animate__bounce text-center"> Mon Parcours </h1>
+        <section class="animate__animated animate__zoomIn mx-md-5">
             <p>J’ai commencé l’informatique quand j’avais 15 ans, grâce à mes grand parents, qui m’ont offert mon
                 premier PC
                 à

@@ -3,11 +3,16 @@
     <hr class="solid">
     <div class="animate__animated animate__zoomIn animate__delay-1s">
         <HomeServices />
+        <hr class="solid">
+        <VideoPresentation />
+        <hr class="solid">
         <Contact />
     </div>
 </template>
 
 <script setup>
+import VideoPresentation from '~/components/videoPresentation.vue';
+
 const description = 'Offrant des services de développement web full stack dans toute la France, je transforme vos idées en solutions digitales innovantes. Découvrez comment nous pouvons aider votre entreprise à se développer en ligne. Basé à côté de Clermont-Ferrand, en Auvergne'
 
 useSeoMeta({
