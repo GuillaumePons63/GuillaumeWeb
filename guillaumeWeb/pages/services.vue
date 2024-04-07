@@ -47,6 +47,13 @@
 </template>
 
 <script setup>
+const description = "Explorez le parcours unique de Guillaume Web, expert en création de sites, développement d'applications et formations personnalisées. Découvrez une approche humaine et sur-mesure pour vos projets numériques, alliant passion pour l'informatique et expertise technique. Contactez-nous pour transformer vos idées en succès numériques."
 
+useSeoMeta({
+    title: 'Services informatique | Guillaume Web',
+    description: description,
+    image: '../assets/images/logo.png',
+    url: 'https://guillaumeweb.fr/services'
+})
 
 </script>

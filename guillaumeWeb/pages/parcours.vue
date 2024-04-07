@@ -20,7 +20,7 @@
                 démonter et j’ai vite compris comment ça fonctionnait dans un ordinateur.
             </p>
             <p>
-                C’est également à cette époque ou j’ai donné mes premier cours. J’étais un bon élève, notamment en
+                C’est également à cette époque que j’ai donné mes premier cours. J’étais un bon élève, notamment en
                 mathématiques, j'aidais les plus jeunes de mon quartier à faire leur devoir. Je leur expliquait souvent
                 ce
                 qu’ils ne comprenaient pas en classe et j’étais fière quand ils ramenaient une bonne note au moment du
@@ -70,27 +70,29 @@
                 le
                 constat est simple, en Auvergne nous avons un soucis d'illectronisme, et nous avons voulu diminuer ce
                 problème
-                par nos actions. C’est grâce à cela que j’ai fait mes premiers programmes informatique et que j'apprends
+                par nos actions. C’est grâce à cela que j’ai fait mes premiers programmes informatique et que j'ai
+                appris
                 à
                 développer. J’ai également appris à me servir de machine à commande numérique, comme les imprimantes 3D,
                 découpeuse vinyle et découpeuse laser.
             </p>
             <p>
-                En 2020, enfermé chez moi pour la cause que vous connaissaient tous, j’ai décidé de passer un diplôme de
-                développeur, et j’ai recentré mon activités autours de la réalisation de site internet et le
+                En 2020, enfermé chez moi pour la cause que vous connaissez tous, j’ai décidé de passer un diplôme de
+                développeur, et j’ai recentré mes activités autours de la réalisation de site internet et le
                 développement
                 web.
                 C’est aujourd’hui ce que je préfère, construire des programmes informatiques, qu’ils soient en ligne ou
                 hors
                 ligne. En 2021, je suis revenu à la formation professionnelle, grâce à la CCI de l'Allier. et
                 aujourd’hui je
-                continue aujourd’hui les deux activités.
+                continue les deux activités.
             </p>
             <p>
                 Maintenant vous en savez plus sur moi, donc si vous avez besoin de quelqu’un pour vous aider, n’hésitez
                 pas
                 à me
-                contacter. En informatique je ne sais pas encore tout faire (je suis par exemple un très mauvais
+                contacter, je ne facture pas le conseil. En informatique je ne sais pas encore tout faire (je suis par
+                exemple un très mauvais
                 graphiste),
                 mais je peux vous orienter vers des personnes compétentes.
             </p>
@@ -100,3 +102,16 @@
         </section>
     </main>
 </template>
+
+<script setup>
+const description = "Découvrez le voyage inspirant d'un passionné de l'informatique depuis l'adolescence jusqu'à devenir un développeur web et formateur professionnel. Avec une expertise étendue, de la réalisation de sites internet au développement d'applications et à l'engagement en éducation populaire, ce parcours unique souligne l'importance de l'apprentissage continu et de l'adaptation aux nouveaux défis numériques. Pour des solutions informatiques ou des formations adaptées, contactez-moi."
+
+useSeoMeta({
+    title: 'Parcours informatique | Guillaume Web',
+    description: description,
+    image: '../assets/images/logo.png',
+    url: 'https://guillaumeweb.fr/parcours'
+})
+
+
+</script>
