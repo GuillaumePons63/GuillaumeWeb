@@ -15,10 +15,12 @@ import VideoPresentation from '~/components/videoPresentation.vue';
 
 const description = 'Offrant des services de développement web full stack dans toute la France, je transforme vos idées en solutions digitales innovantes. Découvrez comment nous pouvons aider votre entreprise à se développer en ligne. Basé à côté de Clermont-Ferrand, en Auvergne'
 
+const imageLink = '../public/logo.png';
+
 useSeoMeta({
     title: 'Développeur web full stack freelance | Guillaume Web',
     description: description,
-    image: '../assets/images/logo.png',
+    image: imageLink,
     url: 'https://guillaumeweb.fr'
 })
 </script>

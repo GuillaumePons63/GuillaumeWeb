@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <h2 class="text-center">Contactez-moi</h2>
-        <form @submit.prevent="submitForm" class="row g-3">
+        <form @submit.prevent="mailInput()" class="row g-3">
             <div class="col-md-6">
                 <label for="name" class="form-label">Nom :</label>
                 <input type="text" class="form-control" id="name" v-model="name" required>
@@ -19,7 +19,7 @@
                 <textarea class="form-control" id="message" v-model="message" required></textarea>
             </div>
             <div class="col-12">
-                <button type="submit" class="btn btn-primary m-auto d-block" @click="mailInput()">Envoyer</button>
+                <button type="submit" class="btn btn-primary m-auto d-block">Envoyer</button>
             </div>
         </form>
     </div>
@@ -37,6 +37,7 @@ const subject = ref('');
 const message = ref('');
 
 const mailInput = () => {
+    console.log('test')
     mail.send({
         to: name.value,
         from: email.value,
