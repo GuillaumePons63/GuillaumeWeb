@@ -22,7 +22,10 @@ $theme-colors: (
 $font-family-sans-serif: 'Metropolis-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 $font-family-monospace: 'Metropholis-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 
-
+h2>a {
+    color: black;
+    text-decoration: none;
+}
 
 
 
