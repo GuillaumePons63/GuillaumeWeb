@@ -22,9 +22,9 @@
                         <li class="nav-item">
                             <NuxtLink class="nav-link text-light" to="/services">Mes services</NuxtLink>
                         </li>
-                        <!-- <li class="nav-item">
-                        <NuxtLink class="nav-link text-light" to="/allProjets">Mes Projets</NuxtLink>
-                    </li> -->
+                        <li class="nav-item">
+                        <NuxtLink class="nav-link text-light" to="/projets">Mes Projets</NuxtLink>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="https://www.malt.fr/profile/guillaumepons1"
                                 target="_blank"> Mon profil sur
