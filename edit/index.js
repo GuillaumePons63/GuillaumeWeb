@@ -1,6 +1,7 @@
 // filepath: /c:/Users/Utilisateur_1/Documents/programmation/Guillaumeweb/GuillaumeWeb/edit/app.js
 const express = require('express');
 const path = require('path');
+const routes = require('./route');
 
 const app = express();
 const port = 3000;
@@ -14,9 +15,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/node_modules', express.static(path.join(__dirname, 'node_modules')));
 
 // Définir une route pour la page d'accueil
-app.get('/', (req, res) => {
-  res.render('index');
-});
+app.use('/', routes);
 
 // Démarrer le serveur
 app.listen(port, () => {

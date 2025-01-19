@@ -11,8 +11,12 @@ html
             h1(class="center") Mon super editeur de contenu pour mon super site
         main
             textarea#MyID
+            button#Save Enregistrer
+            button#New Nouveau
+            h2 Mes projets
+            ul#MyList 
         footer
             p © 2023 My Website
     script(src='/node_modules/simplemde/dist/simplemde.min.js')
-    script.
-            var simplemde = new SimpleMDE({ element: document.getElementById("MyID") });
+    script(src='script.js')
+            
