@@ -4,8 +4,6 @@
     <div class="animate__animated animate__zoomIn animate__delay-1s">
         <HomeServices />
         <hr class="solid">
-        <VideoPresentation />
-        <hr class="solid">
         <Contact />
     </div>
 </template>
