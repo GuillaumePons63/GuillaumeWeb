@@ -25,7 +25,11 @@ export default defineNuxtConfig({
         owner: 'GuillaumePons63',    // ex: 'guillaumeweb'
         url: 'https://github.com/GuillaumePons63/GuillaumeWeb'
       }
-    }
+    },
+     renderer :{
+      anchorLinks: false,
+      },
+    experimental: { sqliteConnector: 'native'}
   },
   devtools: { enabled: true },
   css:  [
