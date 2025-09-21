@@ -1,34 +1,34 @@
-$theme-colors: (
-    'primary': #43b895,
-    'secondary': #EDF0E1,
-    'success': #49b265,
-    'info': #3f4458,
-    'warning': #c7a22d,
-    'danger': #f44336,
-    'light': #c0ccda,
-    'dark': #001738,
+@use "bootstrap/scss/bootstrap" with (
+  $primary: #43b895,
+  $secondary: #EDF0E1,
+  $success: #49b265,
+  $info: #3f4458,
+  $warning: #c7a22d,
+  $danger: #f44336,
+  $light: #c0ccda,
+  $dark: #001738,
+  $font-family-sans-serif: "Metropolis-Medium",
 );
 
+// 🔤 Font face
 @font-face {
-    font-family: 'Metropolis-Medium';
-    src: url('../polices/Metropolis-Medium.ttf.woff') format('woff'),
-        url('../polices/Metropolis-Medium.ttf.svg#Metropolis-Medium') format('svg'),
-        url('../polices/Metropolis-Medium.ttf.eot'),
-        url('../polices/Metropolis-Medium.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Metropolis-Medium";
+  src: url("@/assets/polices/Metropolis-Medium.eot"),
+       url("@/assets/polices/Metropolis-Medium.eot?#iefix") format("embedded-opentype"),
+       url("@/assets/polices/Metropolis-Medium.woff") format("woff"),
+       url("@/assets/polices/Metropolis-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-$font-family-sans-serif: 'Metropolis-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-$font-family-monospace: 'Metropholis-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+// Styles custom
+h2 > a {
+  color: black;
+  text-decoration: none;
+}
 
-h2>a {
-    color: black;
-    text-decoration: none;
+body {
+  font-size:1.1em;
 }
 
 
-
-@import '~/node_modules/bootstrap/scss/bootstrap.scss';
-@import '~/node_modules/animate.css/animate.min.css';
-@import './animation.css';
