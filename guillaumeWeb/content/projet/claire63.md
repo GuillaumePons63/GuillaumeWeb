@@ -1,7 +1,11 @@
 ---
-title: "Claire sophrologie 63"
-description: "Découvrez Claire Sophrologie 63, un site apaisant et inspirant créé avec WordPress. Apprenez à mieux gérer vos émotions, réduire le stress et retrouver sérénité grâce à la sophrologie et d'autres outils bienveillants. Visitez le site pour en savoir plus !"
+title: Claire sophrologie 63
+description: Découvrez Claire Sophrologie 63, un site apaisant et inspirant créé
+  avec WordPress. Apprenez à mieux gérer vos émotions, réduire le stress et
+  retrouver sérénité grâce à la sophrologie et d'autres outils bienveillants.
+  Visitez le site pour en savoir plus !
 ---
+
 # Claire Sophrologie 63
 
 ## Un Site Créé pour Apporter Sérénité et Bien-être
@@ -21,4 +25,3 @@ Le site a été conçu avec **WordPress**, offrant à Claire une autonomie compl
 ## Une Collaboration Fructueuse
 
 Ce projet est une belle réussite, combinant une approche technique efficace avec une personnalisation qui reflète parfaitement l’univers de Claire. Le site est aujourd'hui un outil clé pour son activité, aidant ses clients à mieux comprendre son travail et à prendre contact avec elle facilement.
-

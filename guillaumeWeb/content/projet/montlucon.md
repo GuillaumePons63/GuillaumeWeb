@@ -1,6 +1,6 @@
 ---
-title: 'Formation Montluçon'
-description: "Découvrez mon projet de formation à Montluçon avec la Chambre de Commerce et de l'Industrie de l'Allier. Deux groupes formés au développement informatique, WordPress et langages web (HTML, CSS, JavaScript). Un succès avec des stagiaires maintenant professionnels du secteur."
+title: Formation Montluçon
+description: Découvrez mon projet de formation à Montluçon avec la Chambre de Commerce et de l'Industrie de l'Allier. Deux groupes formés au développement informatique, WordPress et langages web (HTML, CSS, JavaScript). Un succès avec des stagiaires maintenant professionnels du secteur.
 ---
 
 # Présentation de mon projet de formation à Montluçon
